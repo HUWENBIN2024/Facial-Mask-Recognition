@@ -33,5 +33,8 @@ Detect some images: `python detect.py --source data/test --weight runs/train/yol
 Detect using camera: `python detect.py --source 0 --weight runs/train/yolov5s_results/weights/best.pt --name expTestImage --conf 0.4`
 
 ## DataSet link
-https://drive.google.com/drive/folders/1erKN4l5_LU3mZrY0T8nV-r01RyHVGWgY?usp=sharing
+https://drive.google.com/drive/folders/1erKN4l5_LU3mZrY0T8nV-r01RyHVGWgY?usp=sharing  
 Download the dataset, copy the 3 folds(train, test, val) and paste to yolov5/data.
+
+## Demo video:
+https://youtu.be/Pxdrc_3d6ss
