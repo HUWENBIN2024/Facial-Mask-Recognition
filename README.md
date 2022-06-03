@@ -38,3 +38,5 @@ Download the dataset, copy the 3 folds(train, test, val) and paste to yolov5/dat
 
 ## Demo video:
 https://youtu.be/Pxdrc_3d6ss
+
+![demo](/demo.png "demo")
