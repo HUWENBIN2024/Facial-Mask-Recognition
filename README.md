@@ -1,4 +1,6 @@
 # Facial Mask Recognition
+Background: Covid-19 is getting serious and wearing masks can be benificial to the public hygiene. As CCTV is used commonly today, we can apply a real-time detection method to a camera to recognize the mask wearing situation.
+
 We use object detection method to do mask recognition. It can distinguish 5 classes: 'no mask', 'improper', 'proper surgical', 'proper N95', 'proper cloth'. 
 
 No mask: detect faces without a mask  
@@ -9,7 +11,8 @@ We use yolo so that it can apply to a camera and do a real time detection. Demo 
 
 ## Model: YOLOv5
 
-PyTorch implementation of YOLOv5: Real-Time Facial Mask Detection. Forked from: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5).
+PyTorch implementation of YOLOv5: Real-Time Facial Mask Detection. Forked from: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5). It is shown below: 
+![model](/yolov5.png "model")
 
 ## Custom setting
 
