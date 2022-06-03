@@ -31,21 +31,27 @@ nc: 5  # number of classes
 
 ## Usage
 
-### Train:
+### Train
 
 `python train.py --img 640 --batch 32--epochs 50 --data data/data.yaml --cfg models/custom_yolov5s.yaml --weights yolov5s.pt --name yolov5s_results  --cache`
 
-### Detect: 
+### Detect
+We have already train the model for 100 epoch and you can use "best.pt" directly for detection.
 
-Detect some images: `python detect.py --source data/test --weight runs/train/yolov5s_results/weights/best.pt --name expTestImage --conf 0.4`
+Detect some images: `python detect.py --source data/test --weight best.pt --name expTestImage --conf 0.4`
 
-Detect using camera: `python detect.py --source 0 --weight runs/train/yolov5s_results/weights/best.pt --name expTestImage --conf 0.4`
+Detect using camera: `python detect.py --source 0 --weight best.pt --name expTestImage --conf 0.4`
 
 ## DataSet link
 https://drive.google.com/drive/folders/1erKN4l5_LU3mZrY0T8nV-r01RyHVGWgY?usp=sharing  
 Download the dataset, copy the 3 folds(train, test, val) and paste to yolov5/data.
 
-## Demo video:
+## Result
+### Demo Video
 https://youtu.be/Pxdrc_3d6ss
 
+### Quantitive Result
+![result](/results.png "result")
+
+### Example
 ![demo](/demo.png "demo")
