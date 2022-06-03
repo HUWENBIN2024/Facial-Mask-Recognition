@@ -1,4 +1,11 @@
-# YOLOv5
+# Facial Mask Recognition
+We use object detection method to do mask recognition. It can distinguish 5 classes: 'no mask', 'improper', 'proper surgical', 'proper N95', 'proper cloth'. 
+
+No mask: detect faces without a mask  
+Improper: detect someone wearing a mask but in an improper way  
+Proper surgical/N95/Cloth: recognize the class of masks
+
+## Model: YOLOv5
 
 PyTorch implementation of YOLOv5: Real-Time Facial Mask Detection. Forked from: [https://github.com/ultralytics/yolov5](https://github.com/ultralytics/yolov5).
 
