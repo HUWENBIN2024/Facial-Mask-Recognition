@@ -3,7 +3,9 @@ We use object detection method to do mask recognition. It can distinguish 5 clas
 
 No mask: detect faces without a mask  
 Improper: detect someone wearing a mask but in an improper way  
-Proper surgical/N95/Cloth: recognize the class of masks
+Proper surgical/N95/Cloth: recognize the class of masks  
+
+We use yolo so that it can apply to a camera and do a real time detection. Demo video can be seen via a link below.
 
 ## Model: YOLOv5
 
